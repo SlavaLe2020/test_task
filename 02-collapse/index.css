@@ -1,0 +1,10 @@
+/* Ты очень любопытный. Главное ничего тут не меняй! */
+.collapsible__content {
+    display: none;
+}
+
+.collapsible__content.active {
+    display: block;
+}
+
+

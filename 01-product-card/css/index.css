@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box; 
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+
+ .container {
+    max-width: 1210px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.products {
+    background-color: #E5E5E5;
+    padding: 40px 0 60px;
+}
+
+.products__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.products__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__item {
+    max-width: 380px; 
+    padding-bottom: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow:  0 11px 28px rgba(0,0,0,0.25);
+    position: relative;
+}
+
+.products__img {
+    display: block;
+    border-radius: 12px 12px 0 0;
+}
+
+.products__item-box {
+    width: 332px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.products__item-descr {
+    min-height: 244px;
+}
+
+.products__item-title {
+    color: #2F2F2F;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.products__item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F2F2F;
+}
+
+.products-btn {
+    padding-top: 9px;
+    height: 48px;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    color: #42940F;
+    font-size: 18px;
+    line-height: 25px;
+    border: 2px solid #42940F;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.products-btn--right {
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 9px;
+    height: 48px;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    border: 2px solid #4e4e4e;
+    background-color: #4e4e4e;
+}
+
+.products-btn:hover {
+    color: #fff;
+    border: 2px solid #42940F;
+    background-color: #42940F;
+}
+
+.products-btn:active{
+    color: #fff;
+    border: 2px solid #1F5200;
+    background-color: #1F5200;
+}
+
+.products__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F2F2F;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.products__link-descr {
+    width: 110px;
+    background-color: #fdcff3;
+    position: absolute;
+    left: 17px;
+    top: 16px;
+}
+
+.products__link-balance {
+    width: 135px;
+    background-color: #ffcf56;
+    position: absolute;
+    left: 144px;
+    top: 16px;
+}
